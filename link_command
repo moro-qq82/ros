@@ -1,0 +1,5 @@
+dockerhub
+https://hub.docker.com/repository/docker/moroqq82/ros/general
+
+command
+docker run -ti --gpus all -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix {image_id}
